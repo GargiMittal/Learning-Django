@@ -6,6 +6,7 @@
 from socket import *
 
 def createServer():
+# code to create a server
     serversocket = socket(AF_INET, SOCK_STREAM)
     try :
         serversocket.bind(('localhost',9000))
